@@ -1,5 +1,14 @@
 
- <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyDWDXx6_ARm8vII9La01UGGRb3GcSDrpJw"
+<style>
+   li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+  </style>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyDWDXx6_ARm8vII9La01UGGRb3GcSDrpJw"
             type="text/javascript"></script> 
  
     <script type="text/javascript">
@@ -94,6 +103,10 @@
   </script>
 
     <div id="map" style="width: 800px; height: 600px"></div>
-    <?php foreach ($links as $link):?>
-    <div><a href="#" class="link-to-marker" data-marker-id="<?= $link['id'] ?>"><?= $link['name'] ?></a></div>
-  <?php endforeach; ?>
+    <ul>
+      <?php foreach ($links as $link):?>
+        <li>
+          <a href="#" class="link-to-marker" data-marker-id="<?= $link['id'] ?>"><?= $link['name'] ?></a>
+        </li>
+      <?php endforeach; ?>
+    </ul>

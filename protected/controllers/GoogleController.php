@@ -52,7 +52,7 @@ class GoogleController extends Controller
 
 
 		$connection = Yii::app()->db;
-        $markers = "SELECT * FROM markers ORDER BY id DESC";
+        $markers = "SELECT * FROM markers ORDER BY name";
         $command = $connection->createCommand($markers);
         $links = $command->queryAll();
 		//$this->layout = false;
