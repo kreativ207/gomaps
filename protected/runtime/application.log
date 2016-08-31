@@ -21678,3 +21678,201 @@ Stack trace:
 REQUEST_URI=/js/gmaps.js
 HTTP_REFERER=http://gmaps/
 ---
+2016/08/31 15:06:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:06:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:06:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:07:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:07:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:07:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:07:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:09:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:09:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:09:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:09:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "null".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('null')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/null
+HTTP_REFERER=http://gmaps/
+---
+2016/08/31 15:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/gmaps.js".' in D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer_OLD\domains\gmaps\framework\web\CWebApplication.php(141): CWebApplication->runController('js/gmaps.js')
+#1 D:\OpenServer_OLD\domains\gmaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServer_OLD\domains\gmaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/gmaps.js
+HTTP_REFERER=http://gmaps/
+---

@@ -51,7 +51,7 @@
         var map = new GMap2(document.getElementById("map"));
         map.addControl(new GSmallMapControl());
         map.addControl(new GMapTypeControl());
-        map.setCenter(new GLatLng(47.61,-122.34), 13);
+        map.setCenter(new GLatLng(50.44399474,30.51901907), 16);
  
         GDownloadUrl("/google/maps", function(data) {
           var xml = GXml.parse(data);
@@ -82,7 +82,7 @@
           var marker = markersPool[markerId];
           console.log(marker);
           if (marker) {
-              map.setCenter(new GLatLng(marker.lat,marker.lng), 13);
+              map.setCenter(new GLatLng(marker.lat,marker.lng), 16);
               console.log(marker.lat+' '+marker.lng);
           }
       })
