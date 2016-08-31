@@ -20,10 +20,8 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="/js/jquery.id.chopslider-2.2.0.free.min.js"></script>
     <script src="/js/jquery.id.cstransitions-1.2.min.js"></script>
-    <script src="/js/main.js"></script>
-    <script src="/js/gmaps.js"></script>
 
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<title><?php echo CHtml::encode('Google Maps Marker'); ?></title>
 </head>
 
 <body onload="load()" onunload="GUnload()">

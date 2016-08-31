@@ -83,7 +83,7 @@
           console.log(marker);
           if (marker) {
               map.setCenter(new GLatLng(marker.lat,marker.lng), 16);
-              console.log(marker.lat+' '+marker.lng);
+              //console.log(marker.lat+' '+marker.lng);
           }
       })
       }

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Авг 30 2016 г., 18:22
+-- Время создания: Авг 31 2016 г., 15:12
 -- Версия сервера: 5.5.41-log
 -- Версия PHP: 5.4.35
 
@@ -34,22 +34,23 @@ CREATE TABLE IF NOT EXISTS `markers` (
   `lng` float(10,6) NOT NULL,
   `type` varchar(30) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
 
 --
 -- Дамп данных таблицы `markers`
 --
 
 INSERT INTO `markers` (`id`, `name`, `address`, `lat`, `lng`, `type`) VALUES
-(1, 'Pan Africa Market', '1521 1st Ave, Seattle, WA', 47.608940, -122.340141, 'restaurant'),
-(2, 'Buddha Thai & Bar', '2222 2nd Ave, Seattle, WA', 47.613590, -122.344391, 'bar'),
-(3, 'The Melting Pot', '14 Mercer St, Seattle, WA', 47.624561, -122.356445, 'restaurant'),
-(4, 'Ipanema Grill', '1225 1st Ave, Seattle, WA', 47.606365, -122.337654, 'restaurant'),
-(5, 'Sake House', '2230 1st Ave, Seattle, WA', 47.612823, -122.345673, 'bar'),
-(6, 'Crab Pot', '1301 Alaskan Way, Seattle, WA', 47.605961, -122.340363, 'cafe'),
-(7, 'Mama Mexican Kitchen', '2234 2nd Ave, Seattle, WA', 47.613976, -122.345467, 'bar'),
-(8, 'Wingdome', '1416 E Olive Way, Seattle, WA', 99.617210, -199.326584, 'teatr'),
-(9, 'Piroshky Piroshky', '1908 Pike pl, Seattle, WA', 47.610126, -122.342834, 'restaurant');
+(1, 'Vinsanto, wine bar', 'Pushkinska St, 20\nKiev', 50.444302, 30.517544, 'restaurant'),
+(2, 'Museum of History of Kyiv', 'Bohdana Khmel''nyts''koho St, 7\nKiev', 50.445171, 30.517555, 'bar'),
+(3, 'Tarasa Shevchenka Blvd', 'Tarasa Shevchenko Blvd, 14\nKyiv', 50.443275, 30.515741, 'bus stop'),
+(4, 'Natsionalnyy muzey Tarasa Shevchenka', 'Tarasa Shevchenko Blvd, 12\nKyiv', 50.443455, 30.515333, 'restaurant'),
+(5, 'Lesya Ukrainka National Academic', 'Bohdana Khmel''nyts''koho St, 5\nKiev', 50.444672, 30.519073, 'bar'),
+(6, 'Barrel Pub', 'Богдана Хмельницького, 3 b\nKiev', 50.444534, 30.519678, 'cafe'),
+(7, 'Pechersk District Court of Kyiv', 'Khreschatyk St, 42А\nKiev', 50.444065, 30.520214, 'bar'),
+(8, 'Tommy Gun Barbershop', 'Tarasa Shevchenko Blvd, 4Б\nKiev', 50.443012, 30.519018, 'bar'),
+(9, 'UniCredit Bank', 'Tarasa Shevchenko Blvd, 2\nKiev', 50.442692, 30.519840, 'restaurant'),
+(13, 'Museum of Railway Transport', 'пл. Привокзальная, 1\r\nKiev', 50.438923, 30.487082, 'mus');
 
 -- --------------------------------------------------------
 
@@ -66,7 +67,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `role` tinyint(4) NOT NULL,
   `email` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Дамп данных таблицы `user`
