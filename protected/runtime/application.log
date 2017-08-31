@@ -22566,3 +22566,48 @@ Stack trace:
 REQUEST_URI=/favicon.ico
 HTTP_REFERER=http://gomaps.loc/google/gm
 ---
+2017/08/31 19:23:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'gmaps'' in D:\OpenServerBigDig\domains\gomaps\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\OpenServerBigDig\domains\gomaps\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServerBigDig\domains\gomaps\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServerBigDig\domains\gomaps\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServerBigDig\domains\gomaps\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServerBigDig\domains\gomaps\protected\controllers\GoogleController.php(54): CModule->__get('db')
+#5 D:\OpenServerBigDig\domains\gomaps\framework\web\actions\CInlineAction.php(49): GoogleController->actionGm()
+#6 D:\OpenServerBigDig\domains\gomaps\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\OpenServerBigDig\domains\gomaps\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\OpenServerBigDig\domains\gomaps\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\OpenServerBigDig\domains\gomaps\framework\web\CWebApplication.php(282): CController->run('gm')
+#10 D:\OpenServerBigDig\domains\gomaps\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 D:\OpenServerBigDig\domains\gomaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\OpenServerBigDig\domains\gomaps\index.php(11): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---
+2017/08/31 19:23:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServerBigDig\domains\gomaps\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServerBigDig\domains\gomaps\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServerBigDig\domains\gomaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\OpenServerBigDig\domains\gomaps\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://gomaps/
+---
+2017/08/31 19:24:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'gmaps'' in D:\OpenServerBigDig\domains\gomaps\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\OpenServerBigDig\domains\gomaps\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServerBigDig\domains\gomaps\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServerBigDig\domains\gomaps\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServerBigDig\domains\gomaps\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServerBigDig\domains\gomaps\protected\controllers\GoogleController.php(54): CModule->__get('db')
+#5 D:\OpenServerBigDig\domains\gomaps\framework\web\actions\CInlineAction.php(49): GoogleController->actionGm()
+#6 D:\OpenServerBigDig\domains\gomaps\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\OpenServerBigDig\domains\gomaps\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\OpenServerBigDig\domains\gomaps\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\OpenServerBigDig\domains\gomaps\framework\web\CWebApplication.php(282): CController->run('gm')
+#10 D:\OpenServerBigDig\domains\gomaps\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 D:\OpenServerBigDig\domains\gomaps\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\OpenServerBigDig\domains\gomaps\index.php(11): CApplication->run()
+#13 {main}
+REQUEST_URI=/
+---

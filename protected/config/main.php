@@ -52,7 +52,7 @@ return array(
 		// uncomment the following to use a MySQL database
 
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=gmaps',
+			'connectionString' => 'mysql:host=localhost;dbname=gomaps',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
